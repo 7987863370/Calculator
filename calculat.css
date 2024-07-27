@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.calculator{
+    /*position: absolute;
+     text-align: center;
+    justify-content: center;*/ 
+    width: 400px;
+    height: 550px;
+     margin-top: 200px;
+    margin-left: 550px; 
+    border: 2px;
+    border-color: azure;
+    box-shadow: 3px 3px 15px 4px rgba(133,155,199,0.5);
+
+
+}
+button{
+    font-size: 40px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    color: aliceblue;
+    background: transparent;
+    margin: 5px;
+    cursor: pointer;
+    box-shadow:  -8px -8px 15px rgba(255,255,255,o.5);
+}
+input{
+    font-size: 50px;
+    background: transparent;
+    color: aliceblue;
+    margin: 5px;
+    text-align: right;
+    cursor: pointer;
+    width: 300px;
+    height: 60px
+    
+}
+input::placeholder{
+    color:azure;
+}
+body{
+    background-image: url("https://img.freepik.com/premium-photo/panorama-black-brick-wall-dark-stone-texture-background-generated-by-ai_986584-22175.jpg");
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    height: 1200px;
+}
+.equel{
+    background-color: orange;
+}
+.operator{
+    color: green;
+}
