@@ -1,2 +1,2 @@
-# Task-6
+# Calculator
 calculator 
